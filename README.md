@@ -1,16 +1,182 @@
-# React + Vite
+# 📝 Secure Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready full-stack secure notes application built using React (Vite), Node.js, Express, Supabase, and JWT authentication.
 
-Currently, two official plugins are available:
+Users can securely register, login, and manage personal notes with protected API routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Frontend (Vercel)**
+[https://secure-notes-frontend-lilac.vercel.app/](https://secure-notes-frontend-lilac.vercel.app/)
 
-## Expanding the ESLint configuration
+🔗 **Backend (Render API)**
+[https://secure-notes-backend-xl56.onrender.com](https://secure-notes-backend-xl56.onrender.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 GitHub Repositories
+
+👩‍💻 GitHub Profile:
+[https://github.com/ARCHANA-MADDELA-57](https://github.com/ARCHANA-MADDELA-57)
+
+Backend Repository:
+[https://github.com/ARCHANA-MADDELA-57/secure-notes-backend](https://github.com/ARCHANA-MADDELA-57/secure-notes-backend)
+
+Frontend Repository:
+[https://github.com/ARCHANA-MADDELA-57/secure-notes-frontend](https://github.com/ARCHANA-MADDELA-57/secure-notes-frontend)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React (Vite)
+* Axios
+* Environment Variables (VITE_API_URL)
+* JWT stored in LocalStorage
+
+### Backend
+
+* Node.js
+* Express.js
+* Supabase (PostgreSQL Database)
+* JWT Authentication
+* REST API Architecture
+* CORS Configuration
+
+---
+
+## 🔐 Features
+
+* User Registration
+* Secure Login
+* JWT-Based Authentication
+* Protected Routes
+* Create Notes
+* Edit Notes
+* Delete Notes
+* Full CRUD Operations
+* Responsive UI
+
+---
+
+## 🖼 Screenshots
+
+> Add your screenshots inside a folder named `screenshots` in your frontend repository.
+
+### 🔑 Login Page
+
+![Login Screenshot](./screenshots/login.png)
+
+### 📝 Dashboard
+
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### ➕ Add / Edit Note
+
+![Add Note Screenshot](./screenshots/add-note.png)
+
+---
+
+## 📂 Project Structure
+
+### Backend
+
+```
+backend/
+ ├── server.js
+ ├── routes/
+ ├── middleware/
+ ├── package.json
+ ├── .gitignore
+```
+
+### Frontend
+
+```
+frontend/
+ ├── src/
+ ├── components/
+ ├── pages/
+ ├── package.json
+ ├── vite.config.js
+ ├── .gitignore
+```
+
+---
+
+## ⚙️ Environment Variables
+
+### Backend (.env)
+
+```
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
+JWT_SECRET=your_jwt_secret
+```
+
+### Frontend (Vercel Environment Variables)
+
+```
+VITE_API_URL=https://secure-notes-backend-xl56.onrender.com
+```
+
+---
+
+## 🧪 Running Locally
+
+### 1️⃣ Clone Backend
+
+```
+git clone https://github.com/ARCHANA-MADDELA-57/secure-notes-backend.git
+cd secure-notes-backend
+npm install
+npm start
+```
+
+### 2️⃣ Clone Frontend
+
+```
+git clone https://github.com/ARCHANA-MADDELA-57/secure-notes-frontend.git
+cd secure-notes-frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🌍 Deployment Architecture
+
+Frontend (Vercel)
+↓
+Backend API (Render)
+↓
+Supabase (PostgreSQL Database)
+
+Authentication Flow:
+
+1. User logs in or registers.
+2. Backend validates credentials.
+3. JWT token is generated.
+4. Token stored in browser LocalStorage.
+5. Protected routes verify token before serving data.
+
+---
+
+## 📈 Future Improvements
+
+* Refresh Token Implementation
+* Add Note Descriptions & Timestamps
+* Dark Mode UI
+* Loading States & Toast Notifications
+* Pagination for Notes
+* Role-Based Authorization
+
+---
+
+## 📄 License
+
+This project is open-source and created for learning and portfolio purposes.
