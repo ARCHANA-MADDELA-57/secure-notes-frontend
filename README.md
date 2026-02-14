@@ -180,3 +180,13 @@ Authentication Flow:
 ## 📄 License
 
 This project is open-source and created for learning and portfolio purposes.
+
+## 👩‍💻 Author
+
+**Archana Maddela**
+
+- 🌐 Portfolio: https://maddela-archana.vercel.app
+- 💼 LinkedIn: https://www.linkedin.com/in/archana-maddela/
+- 🐙 GitHub: https://github.com/ARCHANA-MADDELA-57
+- 📧 Email: archanaarchu5757@gmail.com
+
