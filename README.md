@@ -69,15 +69,15 @@ Frontend Repository:
 
 ### 🔑 Login Page
 
-![Register Screenshot](./screenshots/Register.png)
+![Register Screenshot](./Screenshots/Register.png)
 
 ### 🔑 Login Page
 
-![Login Screenshot](./screenshots/Login.png)
+![Login Screenshot](./Screenshots/Login.png)
 
 ### 📝 Dashboard
 
-![Dashboard Screenshot](./screenshots/Dashboard.png)
+![Dashboard Screenshot](./Screenshots/Dashboard.png)
 
 ---
 
