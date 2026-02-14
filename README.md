@@ -67,7 +67,7 @@ Frontend Repository:
 
 > Add your screenshots inside a folder named `screenshots` in your frontend repository.
 
-### 🔑 Login Page
+### 🔑 Register Page
 
 ![Register Screenshot](./Screenshots/Register.png)
 
